@@ -1,0 +1,550 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"songs",
+				"songs_d	statement"
+			],
+			[
+				"un",
+				"unmatch_songs	statement"
+			],
+			[
+				"fr",
+				"format	function"
+			],
+			[
+				"artis",
+				"artists_d	statement"
+			],
+			[
+				"re",
+				"reader2	statement"
+			],
+			[
+				"w",
+				"writer	function"
+			],
+			[
+				"row",
+				"row2	forstmt"
+			],
+			[
+				"song",
+				"song_id	statement"
+			],
+			[
+				"del",
+				"delimiter"
+			],
+			[
+				"arti",
+				"artist_file	statement"
+			],
+			[
+				"log",
+				"logging	module"
+			],
+			[
+				"qu",
+				"query_url	statement"
+			],
+			[
+				"lg",
+				"logger	statement"
+			],
+			[
+				"logg",
+				"logger	statement"
+			],
+			[
+				"In",
+				"INFO	statement"
+			],
+			[
+				"Ba",
+				"basicConfig	function"
+			],
+			[
+				"res",
+				"res	statement"
+			],
+			[
+				"loa",
+				"loads	function"
+			],
+			[
+				"get",
+				"getLogger	function"
+			],
+			[
+				"Ke",
+				"KeyError	class"
+			],
+			[
+				"du",
+				"dumps	function"
+			],
+			[
+				"ta",
+				"tag_song	statement"
+			],
+			[
+				"rs",
+				"res_json	statement"
+			],
+			[
+				"l",
+				"load	function"
+			],
+			[
+				"rsu",
+				"results_count	statement"
+			],
+			[
+				"star",
+				"start_pos	statement"
+			],
+			[
+				"wri",
+				"write	function"
+			],
+			[
+				"cu",
+				"cursor	function"
+			],
+			[
+				"conn",
+				"connect	function"
+			],
+			[
+				"perd",
+				"predicted_label	statement"
+			],
+			[
+				"for",
+				"format	function"
+			],
+			[
+				"predi",
+				"predict_image	statement"
+			],
+			[
+				"pre",
+				"predict_image	statement"
+			],
+			[
+				"pred",
+				"predicted_label	statement"
+			],
+			[
+				"fa",
+				"face_cascade	statement"
+			],
+			[
+				"imag",
+				"image_pil"
+			],
+			[
+				"ima",
+				"image_path	forstmt"
+			],
+			[
+				"vc",
+				"VideoCapture	function"
+			],
+			[
+				"pa",
+				"path	module"
+			],
+			[
+				"inf",
+				"INFO	statement"
+			],
+			[
+				"lo",
+				"log_format	statement"
+			],
+			[
+				"set",
+				"setFormatter	function"
+			],
+			[
+				"dela",
+				"delay	param"
+			],
+			[
+				"max",
+				"maxBytes	param"
+			],
+			[
+				"sta",
+				"status	function"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pacre",
+				"Package Control: Remove Package"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remp",
+				"Package Control: Remove Package"
+			],
+			[
+				"utf",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"ut",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pacin",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/F/GIM/test/__init__.py",
+		"/F/GIM/test.py",
+		"/F/GIM/sftp-config-alt.json",
+		"/F/GIM/sftp-config.json",
+		"/F/GIM/main.py",
+		"/F/GIM/test/test.py",
+		"/F/GIM/scripts/controllers/userlist.js",
+		"/F/GIM/scripts/directives/pager.js",
+		"/C/Users/Hugo775128583/Desktop/hello_word.c",
+		"/C/Users/Hugo775128583/Desktop/hello.cpp",
+		"/F/z_MIR/py/format_songs_artists.py",
+		"/F/z_MIR/py/format_users_songs.py",
+		"/F/z_MIR/py/query_songs_by_tag.py",
+		"/F/z_MIR/py/unduplicant.py",
+		"/F/z_MIR/py/extract_artistsid.py",
+		"/F/z_MIR/py/extract_songsid.py",
+		"/F/z_MIR/py/extract_userid.py",
+		"/F/z_MIR/py/sort_songs_artists_id.py",
+		"/F/z_MIR/py/generate_artists_id.py",
+		"/F/z_MIR/py/extract_train_triplets_songs.py",
+		"/F/z_MIR/py/extract_train_triplets_artists.py",
+		"/F/z_MIR/py/intermediate/id_artists.csv",
+		"/C/Users/Hugo775128583/Desktop/参数表",
+		"/F/z_MIR/py/extract_train_triplets.py",
+		"/F/z_MIR/py/extract_songs.py",
+		"/C/Users/Hugo775128583/Desktop/nn3.py",
+		"/H/POJ1930.cpp",
+		"/C/Users/Hugo775128583/Desktop/强化训练要求及报告模板/POJ1930.cpp",
+		"/F/z_MIR/sftp-config.json",
+		"/F/z_MIR/py/intermediate/songs.csv",
+		"/F/z_MIR/py/intermediate/song_artist.csv",
+		"/F/z_MIR/py/intermediate/sub_track_metadata.txt",
+		"/F/z_MIR/py/intermediate/artist_tags.csv",
+		"/F/z_MIR/py/intermediate/artists.csv",
+		"/F/z_MIR/MIR.sublime-project",
+		"/F/z_MIR/.anaconda",
+		"/E/Sublime Text Build 3083 x64/Data/Packages/User/Anaconda.sublime-settings",
+		"/E/Sublime Text Build 3083 x64/Data/Packages/SFTP/SFTP.sublime-settings",
+		"/E/Sublime Text Build 3083 x64/Data/Packages/User/SFTP.sublime-settings",
+		"/F/z_MIR/py/intermediate/query_songs.log",
+		"/F/z_MIR/py/intermediate/song_tag.csv",
+		"/E/Sublime Text Build 3083 x64/Data/Packages/User/Preferences.sublime-settings",
+		"/F/z_MIR/py/intermediate/unique_mbtags.txt",
+		"/F/z_MIR/py/intermediate/queryed_tags.log",
+		"/E/Sublime Text Build 3083 x64/Data/Packages/User/SFTP.errors.log",
+		"/F/z_MIR/py/intermediate_data/sub_track_metadata.txt",
+		"/F/z_MIR/py/intermediate_data/artist_tags.csv",
+		"/F/z_MIR/py/extract_artists.py",
+		"/F/z_MIR/py/datasets_info",
+		"/E/Sublime Text Build 3083 x64/Data/Packages/SFTP/Default (Windows).sublime-keymap",
+		"/F/z_MIR/py/intermediate_data/unique_mbtags.txt",
+		"/F/z_MIR/sftp-config-alt.json",
+		"/E/cygwin64/etc/ssh_config",
+		"/F/z_MIR/py/intermediate_data/artists.txt",
+		"/F/z_MIR/py/intermediate_data/track_metadata.txt",
+		"/F/z_MIR/py/test.py",
+		"/F/FaceRecognization/facerec.sublime-project",
+		"/E/Download/gow-0.8.0/ReadMe.md",
+		"/E/cygwin64/etc/ssh/ssh_config",
+		"/F/FaceRecognization/facerec/face_detection_v01.py",
+		"/C/Users/Hugo775128583/Desktop/cascaded-adaboost-classifier-master/adaboost.cpp",
+		"/F/py/afas.py",
+		"/F/py/test1.py",
+		"/F/py/test.py",
+		"/F/py/sftp-config.json",
+		"/F/MIR/sftp-config.json",
+		"/C/Users/Hugo775128583/Miniconda3/envs/opencv/opencv/build/etc/haarcascades/haarcascade_eye.xml",
+		"/F/zrlab.txt",
+		"/F/WatchMan/run.py",
+		"/F/WatchMan/test_log.py",
+		"/F/WatchMan/conn_log.log",
+		"/F/FaceRecognization/facerec/cam_operates.py",
+		"/F/POJ1930/poj_1930.py",
+		"/F/WatchMan/log.py",
+		"/F/WatchMan/log",
+		"/F/WatchMan/log.1",
+		"/F/WatchMan/log.5",
+		"/F/WatchMan/log.2",
+		"/F/WatchMan/log.3",
+		"/F/WatchMan/log.4",
+		"/F/WatchMan/root.log",
+		"/F/FaceRecognization/face_detection_v01.py",
+		"/F/FaceRecognization/tuts/motion_detector.py",
+		"/F/FaceRecognization/cam_operates.py",
+		"/E/Sublime Text Build 3083 x64/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Hugo775128583/Miniconda3/envs/opencv/lib/site-packages/imutils/__init__.py",
+		"/F/FaceRecognization/motion_detector.py",
+		"/E/Sublime Text Build 3083 x64/Data/Packages/Anaconda/Anaconda.sublime-settings",
+		"/E/Sublime Text Build 3083 x64/Data/Packages/User/Python.sublime-settings",
+		"/E/Sublime Text Build 3083 x64/Data/Packages/Virtualenv/Virtualenv.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"rootApp",
+			"Lincoln",
+			"linc",
+			"usher",
+			"lady",
+			"lady gaga",
+			"1 7 186240 183 23558 41608 89158 111733 150833 169883",
+			"error",
+			"avant-garde",
+			"avant-garde metal",
+			"localtime",
+			"asctime",
+			"Query (.*)\\sfeature",
+			"intermediate",
+			"res",
+			"\"SO(\\w)*\"",
+			"SO",
+			",",
+			"scotland",
+			"'",
+			"cancel",
+			"60",
+			"*\n",
+			"ARZGXZG1187B9B56B6",
+			"artist_id",
+			"SOBARPM12A8C133DFF",
+			"\\",
+			"ClientAliveInterval ",
+			"keep",
+			"ignore",
+			"resize",
+			"500",
+			"data",
+			"app_log",
+			"logFile",
+			"my_",
+			"name",
+			"http://172.30.16.53/rad_online.php",
+			"name",
+			"\\",
+			"min",
+			"draw",
+			"save",
+			"vir",
+			"\\",
+			"interpr",
+			"inter"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"gmtime",
+			"localtime",
+			"\\n",
+			"/",
+			"logger",
+			"log_file",
+			"log_",
+			"/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 106.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 94.0
+	},
+	"pinned_build_system": "Anaconda Python Builder",
+	"project": "ais.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"F:\\FaceRecognization\\facerec.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 235.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

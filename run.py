@@ -8,4 +8,4 @@ from app.api import api
 # stash = FileStash()
 # shutdown_event = threading.Event()
 # try:
-api.run(debug=True)
+api.run(debug=True, port=5001)
