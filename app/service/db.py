@@ -73,6 +73,37 @@ class mssql:
         else:
             return None
 
+    def query_all_MMSI(self, tb_name, process, start_time, end_time, length=100):
+        day = tb_name.split('TB_')[1].replace('_', '-')
+        sql = "SELECT MMSI,REC_TIME FROM {} WHERE REC_TIME BETWEEN CONVERT(datetime, '{} {}') AND CONVERT(datetime, '{} {}')".format(
+            tb_name, day, start_time, day, end_time)
+        sql_count = 'SELECT COUNT(t.MMSI) as count FROM ({}) AS t'.format(sql)
+        # print(sql_count)
+        result = self.query_sql(sql_count)
+        count = result[0]['count']
+        maxRow = length
+        var = {}
+        var['start'] = 0
+        # end = maxRow
+        var['end'] = maxRow + 0
+
+        def next_page():
+            sql_page = "SELECT * FROM (SELECT [MMSI],ROW_NUMBER()OVER(ORDER BY[REC_TIME]) as row,[LON],[LAT],[COG],[SOG] FROM {} WHERE REC_TIME BETWEEN CONVERT(datetime,'{} {}') AND CONVERT(datetime, '{} {}')) as t WHERE t.row >0 AND t.row<={}".format(
+                tb_name, day, start_time, day, end_time, maxRow)
+            result = self.query_sql(sql_page)
+            var['start'] += maxRow
+            var['end'] += maxRow
+            process(result)
+            return next_page
+
+        if var['end'] < count:
+            return next_page()
+        elif var['end'] >= count:
+            next_page()
+            return None
+        else:
+            return None
+
     def query_count_rows(self, tb_name):
         sql = 'SELECT COUNT(MMSI) AS count from ' + tb_name
         cursor = self.conn.cursor(as_dict=True)
@@ -82,8 +113,9 @@ class mssql:
             count = row['count']
         return count
 
-    def query_count_all_distict_MMSI(self,tbName):
-        sql = 'SELECT COUNT(t.MMSI) AS count from ( SELECT distinct(MMSI) as MMSI from ' + tbName +' ) as t' 
+    def query_count_all_distict_MMSI(self, tbName):
+        sql = 'SELECT COUNT(t.MMSI) AS count from ( SELECT distinct(MMSI) as MMSI from ' + \
+            tbName + ' ) as t'
         cursor = self.conn.cursor(as_dict=True)
         cursor.execute(sql)
         count = 0
@@ -126,4 +158,10 @@ class mssql:
 if __name__ == '__main__':
     ms = mssql()
 
+    def process(a):
+        for i in a:
+            print(a)
+
+    ms.query_all_MMSI(
+        'POS_INFO_TB_2014_07_04', process, '00:00:01', '00:03:00')
 # conn.close()

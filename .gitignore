@@ -1,3 +1,6 @@
 is.sublime-project
 ais.sublime-workspace
 sftp-config.json
+*.pyc
+.ipynb_checkpoints
+*.ipynb
